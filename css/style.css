@@ -55,7 +55,7 @@ a {
     font-size: 0.8rem; }
 
 .site-navbar-top {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+  border-bottom: 1px solid rgb(255, 255, 255); }
 
 .site-navbar {
   margin-bottom: 0px;
@@ -334,7 +334,7 @@ a {
     .sticky-wrapper .site-navbar ul li.active a {
       color: rgb(0, 0, 0); }
   .sticky-wrapper.is-sticky .site-navbar {
-    background-color: #804545; }
+    background-color: #372668; }
     .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li {
       display: inline-block;
       padding: 10px 5px; }
