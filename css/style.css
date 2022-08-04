@@ -543,8 +543,7 @@ a:hover {
 .profile-img {
   width: 200px;
   height: 200px;
-  border-radius: 160px;
-  border-top-right-radius: 160px!important;
+  border-radius: 160px!important;
   display: block;
  margin: 0px auto;
 }
@@ -568,4 +567,201 @@ a:hover {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+  }
+
+  header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    /* background-image: url(../assets/img/background.jpg); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  
+  header.masthead .masthead-content {
+    z-index: 1;
+    position: relative;
+  }
+  
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem;
+  }
+  
+  header.masthead .masthead-content .masthead-heading-home {
+    font-size: 6rem;
+  }
+  
+  header.masthead .masthead-content .masthead-heading-av {
+    font-size: 4rem;
+  }
+  
+  header.masthead .masthead-content .masthead-heading-of {
+    font-size: 4rem;
+  }
+  
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+  }
+  
+  @media (min-width: 992px) {
+    header.masthead header.masthead {
+      padding-top: calc(10rem + 55px);
+      padding-bottom: 10rem;
+    }
+    header.masthead header.masthead .masthead-content .masthead-heading {
+      font-size: 6rem;
+    }
+    header.masthead header.masthead .masthead-content .masthead-heading-home {
+      font-size: 6rem;
+    }
+    header.masthead header.masthead .masthead-content .masthead-heading-av {
+      font-size: 6rem;
+    }
+    header.masthead header.masthead .masthead-content .masthead-heading-of {
+      font-size: 6rem;
+    }
+    header.masthead header.masthead .masthead-content .masthead-subheading {
+      font-size: 4rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    header.masthead {
+      padding-top: calc(10rem + 55px);
+      padding-bottom: 10rem;
+    }
+    header.masthead .masthead-content .masthead-heading {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading-home {
+      font-size: 3.5rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading-av {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading-of {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 374px) {
+    header.masthead {
+      padding-top: calc(10rem + 55px);
+      padding-bottom: 10rem;
+    }
+    header.masthead .masthead-content .masthead-heading {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading-home {
+      font-size: 2.5rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading-av {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading-of {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 359px) {
+    header.masthead {
+      padding-top: calc(10rem + 55px);
+      padding-bottom: 10rem;
+    }
+    header.masthead .masthead-content .masthead-heading {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading-home {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading-av {
+      font-size: 3rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading-of {
+      font-size: 2.5rem;
+      margin-left: 0rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 319px) {
+    header.masthead {
+      padding-top: calc(10rem + 55px);
+      padding-bottom: 10rem;
+    }
+    header.masthead .masthead-content .masthead-heading-home {
+      font-size: 2.8rem;
+      margin-left: -0.7rem !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading {
+      font-size: 2.8rem;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading-av {
+      font-size: 2rem;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-heading-of {
+      font-size: 2rem;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+      font-size: 1.5rem;
+      margin-left: 0rem !important;
+    }
+  }
+  .btn-xl {
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
   }
