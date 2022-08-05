@@ -574,7 +574,75 @@ a:hover {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1;
-    margin: 20px;
+    margin: 20px 20px 20px 0px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+  .profile-btn2{
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 0.6em;
+    color: blue;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 4rem 20px 20px 0px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+
+  .profile-btn3{
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 0.6em;
+    color: blue;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 10rem 20px 20px 0px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+
+  .profile-btn4{
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 0.6em;
+    color: blue;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px 20px 20px 0px;
     padding: 1.2em 2.8em;
     text-decoration: none;
     text-align: center;
