@@ -1,8 +1,15 @@
 body {
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: rgb(255, 255, 255);
+  
   height: 200vh;
   position: relative;
+  background-image: url(../images/Web\ decoracion.png);
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+  
 }
 
 body:before {
@@ -498,7 +505,7 @@ a:hover {
 }
 
 .sticky-wrapper.is-sticky .site-navbar {
-  background-color: #372668;
+  background-color: #ffffff;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu>li {
