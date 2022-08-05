@@ -547,6 +547,13 @@ a:hover {
   font-weight: 550;
 }
 
+.cards-img{
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0px auto;
+}
+
 .profile-img {
   width: 200px;
   height: 200px;
