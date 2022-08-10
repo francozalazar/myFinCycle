@@ -742,7 +742,7 @@ a:hover {
       margin-right: 0 !important;
     }
     header.masthead .masthead-content .masthead-heading-home {
-      font-size: 3.5rem;
+      font-size: 3rem;
       margin-left: 0rem !important;
       margin-right: 0 !important;
     }
@@ -862,11 +862,6 @@ a:hover {
     margin-right: 1.5rem;
   }
 
-  @media (min-width: 1200px) {
-  .imgFooter{
-    margin-left: 4rem;
-  }
-}
 @media (max-width: 767px) {
   .imgFooter{
     margin-left: 2.2rem;
@@ -874,5 +869,11 @@ a:hover {
   .copyFooter{
     margin-left: 11rem;
     font-size: 12px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .copyFooter{
+    margin-left: 10rem;
   }
 }
