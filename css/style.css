@@ -19,14 +19,6 @@ footer{
   padding-left: 1.5rem ;
   padding-right: 15rem ;
 }
-.container-footer-all{
-  width: 100%;
-  max-width: 1200px;
-  margin: 37px;
-}
-.container-footer{
-  display: flex;
-}
 body:before {
   content: "";
   position: absolute;
@@ -866,3 +858,21 @@ a:hover {
     font-weight: 700;
     letter-spacing: 0.1rem;
   }
+  .marginImg{
+    margin-right: 1.5rem;
+  }
+
+  @media (min-width: 1200px) {
+  .imgFooter{
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 767px) {
+  .imgFooter{
+    margin-left: 2.2rem;
+  }
+  .copyFooter{
+    margin-left: 11rem;
+    font-size: 12px;
+  }
+}
