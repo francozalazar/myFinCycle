@@ -858,6 +858,9 @@ a:hover {
       margin-left: 0rem !important;
     }
   }
+  .sectionPasosMobile{
+    display: none;
+  }
   .btn-xl {
     text-transform: uppercase;
     padding: 1rem 2rem 1rem 2rem;
@@ -924,6 +927,9 @@ a:hover {
   .cuartoPasoM{
     position: relative;
     bottom: 2rem;
+  }
+  .sectionPasosMobile{
+    display: initial;
   }
 }
 
