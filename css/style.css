@@ -16,8 +16,7 @@ footer{
   background: rgba(7, 30, 61, 1);
   color: white;
   width: 100%;
-  padding-left: 1.5rem ;
-  padding-right: 15rem ;
+  overflow: hidden;
 }
 body:before {
   content: "";
@@ -870,10 +869,8 @@ a:hover {
     margin-left: 11rem;
     font-size: 12px;
   }
-}
-
-@media (max-width: 1200px) {
-  .copyFooter{
-    margin-left: 10rem;
+  footer{
+    padding-left: 1.5rem;
+    padding-right: 15rem;
   }
 }
