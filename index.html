@@ -206,21 +206,21 @@
         <h3 class="mt-4 mb-4 fw-normal lead text-center"> Para contratar nuestros servicios podés enviarnos un correo electrónico a myfincycle@gmail.com, si no, podés contactarnos completando la sección de abajo:</h3>
       </div>
       <div>
-        <form>
+        <form action="https://formsubmit.co/aleexzorzin@gmail.com" method="POST">
           <div class="col-12">
-            <input type="text" id="name" class="form-control mt-4" placeholder="Nombre">
+            <input type="text" name="Nombre:" id="name" class="form-control mt-4" placeholder="Nombre">
           </div>
           <div class="col-12">
-            <input type="text" id="surname" class="form-control mt-4" placeholder="Apellido">
+            <input type="text" name="Apellido:" id="surname" class="form-control mt-4" placeholder="Apellido">
           </div>
           <div>
             <div class="col-12">
-              <input type="email" id="email" class="form-control mt-4" placeholder="Correo electrónico">
+              <input type="email" name="E-mail:" id="email" class="form-control mt-4" placeholder="Correo electrónico">
             </div>
           </div>
 
           <div class="col-12 mt-4 mb-2 form-text">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" cols=""
+            <textarea class="form-control" name="Consulta:" id="exampleFormControlTextarea1" rows="3" cols=""
               placeholder="Consulta"></textarea>
           </div>
 
@@ -231,6 +231,8 @@
           <div class="col-12 pb-5 text-center px-5">
             <button type="submit" class="btn btn-xl btn-info rounded-pill">Enviar</button>
           </div>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
         </form>
       </div>
     </div>
@@ -244,7 +246,7 @@
         <!-- Grid row -->
         <div class="row mt-3">
           <!-- Grid column -->
-          <div class="col-4 col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+          <div class="col-4 col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
             <!-- Content -->
             <div class="rowIcons">
               <img class="marginImg" src="/images/assets/FB Footer Logo.png" alt="">
@@ -257,7 +259,7 @@
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-4 col-md-2 col-lg-4 col-xl-5 mx-auto mb-4">
+          <div class="col-4 col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
             <!-- Links -->
             <a href="#">
               <img class="imgFooter" src="./images/Decoracion_Web_11.png" alt="">
@@ -266,7 +268,7 @@
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-4 col-md-1 col-lg-4 col-xl-2 mx-auto mb-4">
+          <div class="col-4 col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
             <p class="text-white copyFooter">© 2022 myFinCycle <br> Powered by Project©</p>
             
             <a class="text-white" href="#"></a>
