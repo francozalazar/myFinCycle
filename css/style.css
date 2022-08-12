@@ -873,10 +873,14 @@ a:hover {
   }
 
   .btn-main{
-    background-color: rgba(33, 230, 193, 1);
+    background-color:rgba(33, 230, 193, 1);
     border-radius: 10px;
   }
+  .botonEnviar{
+    background-color: rgba(7, 30, 61, 1);
+    color: #fff0f0;
 
+  }
   .logoNavMobile{
     display: none;
   }
@@ -1005,4 +1009,10 @@ a:hover {
 }
 .headerPasos{
   font-weight: 700;
+}
+#Acerca {
+width: 100€;
+}
+#contacto{
+  width: 100%;
 }
