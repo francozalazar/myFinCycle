@@ -488,3 +488,18 @@ a {
 		// padding-bottom: 10px!important;
 	}
 }
+
+.css-only-modal {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    &:target {
+        visibility: visible;
+        opacity: 1;
+    }
+}
