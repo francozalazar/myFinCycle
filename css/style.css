@@ -573,100 +573,112 @@ a:hover {
 }
 
 .profile-img {
-  width: 200px;
-  height: 200px;
+  width: 260px;
+  height: 260px;
   border-radius: 160px!important;
   display: block;
  margin: 0px auto;
 }
 .profile-btn{
-    box-sizing: border-box;
-    appearance: none;
-    background-color: transparent;
-    border: 2px solid blue;
-    border-radius: 0.6em;
-    color: blue;
-    cursor: pointer;
-    display: flex;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 20px 20px 20px 0px;
-    padding: 1.2em 2.8em;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+  position: relative;
+  top: 4.8rem;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  background-color: rgba(7, 30, 61, 1);
+  border-radius: 0.6em;
+  color: rgba(193, 240, 243, 1);
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 40px 20px 20px 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   }
 
   .profile-btn2{
-    box-sizing: border-box;
-    appearance: none;
-    background-color: transparent;
-    border: 2px solid blue;
-    border-radius: 0.6em;
-    color: blue;
-    cursor: pointer;
-    display: flex;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 4rem 20px 20px 0px;
-    padding: 1.2em 1.8em;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    margin-bottom: 0px;
+    position: relative;
+  top: 4.8rem;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  background-color: rgba(7, 30, 61, 1);
+  border-radius: 0.6em;
+  color: rgba(193, 240, 243, 1);
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 40px 20px 20px 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   }
 
   .profile-btn3{
-    box-sizing: border-box;
-    appearance: none;
-    background-color: transparent;
-    border: 2px solid blue;
-    border-radius: 0.6em;
-    color: blue;
-    cursor: pointer;
-    display: flex;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 10rem 20px 20px 0px;
-    padding: 1.2em 2.8em;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    margin-bottom: 0px;
+    position: relative;
+  top: 4.8rem;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  background-color: rgba(7, 30, 61, 1);
+  border-radius: 0.6em;
+  color: rgba(193, 240, 243, 1);
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 40px 20px 20px 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   }
 
   .profile-btn4{
-    box-sizing: border-box;
-    appearance: none;
-    background-color: transparent;
-    border: 2px solid blue;
-    border-radius: 0.6em;
-    color: blue;
-    cursor: pointer;
-    display: flex;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 20px 20px 20px 0px;
-    padding: 1.2em 2.8em;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    position: relative;
+  top: 4.8rem;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  background-color: rgba(7, 30, 61, 1);
+  border-radius: 0.6em;
+  color: rgba(193, 240, 243, 1);
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 40px 20px 20px 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
   }
 
   header.masthead {
@@ -873,14 +885,10 @@ a:hover {
   }
 
   .btn-main{
-    background-color:rgba(33, 230, 193, 1);
+    background-color: rgba(33, 230, 193, 1);
     border-radius: 10px;
   }
-  .botonEnviar{
-    background-color: rgba(7, 30, 61, 1);
-    color: #fff0f0;
 
-  }
   .logoNavMobile{
     display: none;
   }
@@ -938,7 +946,7 @@ a:hover {
 }
 
 .bgColor{
-  background-color: rgba(33, 230, 193, 0.10);
+  background-color: rgba(33, 230, 193, 0.11);
 }
 .segundoPaso{
   margin-left: 6rem;
@@ -1010,9 +1018,41 @@ a:hover {
 .headerPasos{
   font-weight: 700;
 }
-#Acerca {
-width: 100€;
+.card-space{
+  margin-right: 1rem!important;
 }
-#contacto{
-  width: 100%;
+.cardServices{
+  background-color: rgba(242, 248, 255, 1);
+}
+.cardServices:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+  transform: scale(1.05, 1.05);
+}
+.card-text{
+  font-weight: 500!important;
+}
+.border-card{
+  border-top-left-radius: 200px!important;
+  border-top-right-radius: 200px!important;
+}
+.card-space2{
+  margin-right: 1rem!important;
+  background-color: rgba(193, 240, 243, 0.548);
+}
+.contact-section{
+  margin-top: -20rem;
+}
+.profile-text{
+  font-size: 1.5rem;
+  color: rgba(7, 30, 61, 1);
+}
+.imgLinkedin{
+  position: relative;
+  top: 2rem;
+  width: 15%;
+}
+.botonEnviar{
+  background-color: rgba(7, 30, 61, 1);
+  color: #fff0f0;
+
 }
