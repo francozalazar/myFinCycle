@@ -545,6 +545,7 @@ a {
   position: absolute;
   z-index: 100;
   width: 100%;
+  background-color: #F2F8FF;
 }
 
 .sticky-wrapper+.site-blocks-cover {
