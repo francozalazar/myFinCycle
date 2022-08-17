@@ -38,7 +38,7 @@
   <div class="site-navbar site-navbar-target js-sticky-header">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-2 mb-3">
+        <div class="col-2 mb-2 mt-2">
 
           <a class="logoNav" href="/"><img src="./images/Logo Web.svg" alt=""></a>
           <a class="logoNavMobile" href="/"><img src="./images/Logo_Mobile.svg" alt=""></a>
@@ -156,7 +156,7 @@
     <!-- SECTION PASOS PC -->
 
     <section class="text-center sectionPasos" id="nuestrosServicios">
-      <div class="paso1">
+      <div class="paso1 container">
         <img src="./images/assets/Primer paso.png" alt="">
         <div class="col-lg-6 order-lg-1">
           <div class="p-5 textoPaso1">
@@ -185,7 +185,7 @@
       </div>
 
       <div>
-        <img class="linea" src="./images/assets/Lineas 2.png" alt="">
+        <img class="linea2" src="./images/assets/Lineas 2.png" alt="">
       </div>
 
       <div class="container">
@@ -197,7 +197,7 @@
             <div class="col-lg-6 order-lg-1">
               <div class="p-5 textoPaso3">
                 <h5 class="headerPasos">Tercer paso</h5>
-                <p class="fs-5">Envianos la información necesaria para que podamos comenzar</p>
+                <p class="fs-5">Envianos la información <br> necesaria para que <br> podamos comenzar</p>
               </div>
             </div>
           </div>
@@ -216,7 +216,7 @@
           <div class="col-lg-6 order-lg-1">
             <div class="p-5 textoPaso4">
               <h5 class="headerPasos">Cuarto paso</h5>
-              <p class="fs-5">Te presentamos los reportes
+              <p class="fs-5">Te presentamos los <br> reportes
             </div>
           </div>
         </div>
@@ -308,7 +308,7 @@
         <h2 class="text-center text-bold">¿Quienes somos?</h2>
         <p class="text-center text-bold">Somos un grupo de Licenciados en Economía con experiencia profesional</p>
         <div class="card-group container">
-          <div class="card card-space2 border-card" style="
+          <div class="card shadow card-space2 border-card" style="
         margin-bottom: 30rem;">
 
             <img src="./images/IMG_3497.png" class="card-img-top profile-img" alt="...">
@@ -320,17 +320,52 @@
               economicos. Así también me desempeñe como analista financiero en el sector corporativo y actualmente soy
               analista de riesgo para finanzas estructuradas. </p> -->
               <div class="text-center">
-                <a href="https://www.linkedin.com/in/ivan-abisaivallejo/">
+                <a href="https://www.linkedin.com/in/ivan-abisaivallejo/" target="_blank">
                   <img class="imgLinkedin" src="./images/assets/LinkedIn Logo cards.png" alt="">
                 </a>
               </div>
             </div>
-            <button class="btn profile-btn">Ver más</button>
+            <button class="btn profile-btn" data-bs-toggle="modal" data-bs-target="#modalIvan">Ver más</button>
+
+            <!-- MODAL 1 -->
+            
+            <div class="modal fade" id="modalIvan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content modal-container">
+                  <div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="modalImage"></div>
+                    <div class="modal-image-ttle">
+                      <h3 class="modal-image-title">Ivan Vallejo</h3>
+                    </div>
+                    <div class="modal-image-text container">
+                      <p>Soy Licenciado en Economía y próximo 
+                        Licenciado en Finanzas. 
+                        Tengo experiencia como economista independiente
+                        en el análisis de datos macro y micro
+                        economicos. Así también me desempeñe como 
+                        analista financiero en el sector corporativo 
+                        y actualmente soy analista de riesgo para
+                        finanzas estructuradas.
+                      </p>
+                    </div>
+                    <div class="modal-linkedin">
+                      <a href="https://www.linkedin.com/in/ivan-abisaivallejo/" target="_blank">
+                      <img style="width: 50px;" src="./images/assets/LinkedIn Logo cards.png" alt="">
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
 
-          <div class="card card-space2 border-card" style="
+          <div class="card shadow card-space2 border-card" style="
         margin-bottom: 30rem;">
-            <img src="./images/IMG_3454.jpg" class="card-img-top profile-img" alt="...">
+            <img src="./images/IMG_3454 1.png" class="card-img-top profile-img" alt="...">
             <div class="card-body">
 
               <p class="card-text profile-text text-center">Julián Paez</p>
@@ -339,34 +374,92 @@
               análisis de marketing. Actualmente me estoy desempeñando como analista senior en relación con
               inversionistas y finanzas corporativas. </p> -->
               <div class="text-center">
-                <a href="https://www.linkedin.com/in/julian-santiago-paez-9851a1147/">
+                <a href="https://www.linkedin.com/in/julian-santiago-paez-9851a1147/" target="_blank">
                   <img class="imgLinkedin" src="./images/assets/LinkedIn Logo cards.png" alt="">
                 </a>
               </div>
             </div>
-            <a class="btn profile-btn2" href="https://www.linkedin.com/in/julian-santiago-paez-9851a1147/"
-              role="button">Ver más</a>
+            <button type="button" class="btn profile-btn2" data-bs-toggle="modal" data-bs-target="#modalJulian">Ver más</button>
+              
+            <!-- MODAL 2 -->
+            
+            <div class="modal fade" id="modalJulian" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content modal-container">
+                  <div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="modalImage2"></div>
+                    <div class="modal-image-ttle">
+                      <h3 class="modal-image-title">Julián Paez</h3>
+                    </div>
+                    <div class="modal-image-text container">
+                      <p>Soy Julian Paez, estudié licenciatura en Economía en UADE, y mi experiencia
+                        laboral consiste en auditoría contable, consultoría de mejora de procesos y modelaje econométrico para
+                        análisis de marketing. Actualmente me estoy desempeñando como analista senior en relación con
+                        inversionistas y finanzas corporativas.
+                      </p>
+                    </div>
+                    <div class="modal-linkedin">
+                      <a href="https://www.linkedin.com/in/julian-santiago-paez-9851a1147/" target="_blank">
+                      <img style="width: 50px;" src="./images/assets/LinkedIn Logo cards.png" alt="">
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
-          <div class="card card-space2 border-card" style="
+          <div class="card shadow card-space2 border-card" style="
         margin-bottom: 30rem;">
-            <img src="./images/IMG_3505.jpg" class="card-img-top profile-img" alt="...">
+            <img src="./images/IMG_3505 2.png" class="card-img-top profile-img" alt="...">
             <div class="card-body">
 
               <p class="card-text profile-text text-center">Camila Córdoba</p>
-              <!-- <p class="card-text text-center">Soy Julian Paez, estudié licenciatura en Economía en UADE, y mi experiencia
-              laboral consiste en auditoría contable, consultoría de mejora de procesos y modelaje econométrico para
-              análisis de marketing. Actualmente me estoy desempeñando como analista senior en relación con
-              inversionistas y finanzas corporativas. </p> -->
+              <!-- <p class="card-text text-center">Soy Camila Córdoba licenciada en Economía y próxima graduada en Finanzas en UADE.
+                Trabajé en consultoría de mejora de procesos , data analyst y, en 
+                reportería y análisis de spreads de tasas bancarias. </p> -->
               <div class="text-center">
-                <a href="http://linkedin.com/in/camila-cordoba">
+                <a href="http://linkedin.com/in/camila-cordoba" target="_blank">
                   <img class="imgLinkedin" src="./images/assets/LinkedIn Logo cards.png" alt="">
                 </a>
               </div>
             </div>
-            <a class="btn profile-btn3" href="https://www.linkedin.com/in/julian-santiago-paez-9851a1147/"
-              role="button">Ver más</a>
+            <button type="button" class="btn profile-btn3" data-bs-toggle="modal" data-bs-target="#modalCamila">Ver más</button>
+            
+            <!-- MODAL 3 -->
+            
+            <div class="modal fade" id="modalCamila" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content modal-container">
+                  <div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="modalImage3"></div>
+                    <div class="modal-image-ttle">
+                      <h3 class="modal-image-title">Camila Córdoba</h3>
+                    </div>
+                    <div class="modal-image-text container">
+                      <p>Soy Camila Córdoba licenciada en Economía y próxima graduada en Finanzas en UADE.
+                        Trabajé en consultoría de mejora de procesos , data analyst y, en 
+                        reportería y análisis de spreads de tasas bancarias.
+                      </p>
+                    </div>
+                    <div class="modal-linkedin">
+                      <a href="http://linkedin.com/in/camila-cordoba" target="_blank">
+                      <img style="width: 50px;" src="./images/assets/LinkedIn Logo cards.png" alt="">
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
-          <div class="card card-space2 border-card" style="
+          <div class="card shadow card-space2 border-card" style="
         margin-bottom: 30rem;">
             <img src="./images/IMG_3470 png.png" class="card-img-top profile-img" alt="...">
             <div class="card-body">
@@ -382,7 +475,37 @@
               </div>
             </div>
 
-            <a class="btn profile-btn4" href="https://www.linkedin.com/in/florencia-zalazar/" role="button">Ver más</a>
+            <button type="button" class="btn profile-btn4" data-bs-toggle="modal" data-bs-target="#modalFlorencia">Ver más</button>
+          
+            <!-- MODAL 4 -->
+            
+            <div class="modal fade" id="modalFlorencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content modal-container">
+                  <div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="modalImage4"></div>
+                    <div class="modal-image-ttle">
+                      <h3 class="modal-image-title">Florencia Zalazar</h3>
+                    </div>
+                    <div class="modal-image-text container">
+                      <p>Mi nombre es Florencia Zalazar, soy Economista y próxima Licenciada en
+                        Finanzas, tengo experiencia en el análisis de datos macroeconómicos, análisis de riesgo crediticio en
+                        fondos comunes de inversión y entidades financieras, y en reportería y análisis de los nuevos medios de
+                        pago.
+                      </p>
+                    </div>
+                    <div class="modal-linkedin">
+                      <a href="http://linkedin.com/in/camila-cordoba" target="_blank">
+                      <img style="width: 50px;" src="./images/assets/LinkedIn Logo cards.png" alt="">
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -479,8 +602,7 @@
   </footer>
   <!-- Footer -->
   <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="js/main.js"></script>
 </body>

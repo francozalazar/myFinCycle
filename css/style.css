@@ -71,10 +71,6 @@ a {
   transition: .3s all ease;
 }
 
-a,
-a:hover {
-  text-decoration: none !important;
-}
 
 .hero {
   height: 100vh;
@@ -420,6 +416,52 @@ a:hover {
   color: #fffbfb;
 }
 
+.btn-close {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  padding: 1em 1em;
+  color: #000000;
+  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+  border: 0;
+  border-radius: 0.25rem;
+  opacity: 0.5;
+}
+
+.btn-close:hover {
+  color: #000000;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.btn-close:focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(10, 88, 189, 0.25);
+          box-shadow: 0 0 0 0.25rem rgba(10, 88, 189, 0.25);
+  opacity: 1;
+}
+
+.btn-close:disabled, .btn-close.disabled {
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  opacity: 0.25;
+}
+
+.logoNav img{
+  width: 78.5px;
+  height: 78.5px;
+}
+
+
+.btn-close-white {
+  -webkit-filter: invert(1) grayscale(100%) brightness(200%);
+          filter: invert(1) grayscale(100%) brightness(200%);
+}
+
 .site-mobile-menu .site-nav-wrap .arrow-collapse {
   position: absolute;
   right: 0px;
@@ -559,7 +601,7 @@ a:hover {
 }
 
 .text-bold {
-  font-weight: 550;
+  font-weight: 700;
 }
 .text-lighter {
   font-weight: normal;
@@ -572,6 +614,15 @@ a:hover {
   margin: 0px auto;
 }
 
+.card-space{
+  margin-right: 1rem!important;
+}
+
+.card-space2{
+  margin-right: 1rem!important;
+  background-color: rgba(193, 240, 243, 0.548);
+}
+
 .profile-img {
   width: 260px;
   height: 260px;
@@ -581,7 +632,7 @@ a:hover {
 }
 .profile-btn{
   position: relative;
-  top: 4.8rem;
+  top: 4rem;
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
@@ -605,7 +656,7 @@ a:hover {
 
   .profile-btn2{
     position: relative;
-  top: 4.8rem;
+  top: 4rem;
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
@@ -629,7 +680,7 @@ a:hover {
 
   .profile-btn3{
     position: relative;
-  top: 4.8rem;
+  top: 4rem;
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
@@ -653,7 +704,7 @@ a:hover {
 
   .profile-btn4{
     position: relative;
-  top: 4.8rem;
+  top: 4rem;
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
@@ -714,6 +765,8 @@ a:hover {
   
   header.masthead .masthead-content .masthead-heading-home {
     font-size: 6rem;
+    color: #071E3D;
+    font-weight: 700;
   }
   
   header.masthead .masthead-content .masthead-heading-av {
@@ -777,6 +830,12 @@ a:hover {
     }
     header.masthead .masthead-content .masthead-subheading {
       font-size: 1.8rem;
+    }
+    .card-space{
+      margin-right: 0px!important;
+    }
+    .card-space2{
+      margin-right: 0px!important;
     }
   }
   
@@ -887,6 +946,11 @@ a:hover {
   .btn-main{
     background-color: rgba(33, 230, 193, 1);
     border-radius: 10px;
+    
+  }
+  .btn-main:hover{
+    color: #071E3D;
+    background-color: #1BD8B4;
   }
 
   .logoNavMobile{
@@ -990,10 +1054,11 @@ a:hover {
 .paso1{
   position: relative;
   top: 16rem;
+
 }
 .textoPaso1{
   position: relative;
-  left: 15rem; 
+  left: 5rem; 
   bottom:12rem;
 }
 .textoPaso2{
@@ -1018,9 +1083,107 @@ a:hover {
 .headerPasos{
   font-weight: 700;
 }
-.card-space{
-  margin-right: 1rem!important;
+
+@media (max-width: 1200px) {
+  .textoPaso1{
+    position: relative;
+    left: 3rem; 
+    bottom:12rem;
+  }
+  .textoPaso2{
+    position: relative;
+    left: 18rem;
+    top: 1rem;
+  }
+  .textoPaso3{
+    position: relative;
+    left: 18rem; 
+    bottom:14rem;
+  }
+  .textoPaso4{
+    position: relative;
+    left: 16rem; 
+    bottom:18rem;
+  }
+  .textoPaso5{
+    position: relative;
+    bottom:17rem;
+  }
 }
+
+@media (max-width: 991px) {
+  .segundoPaso{
+    margin-left: 34rem;
+  }
+  .tercerPaso{
+    margin-right: 4rem;
+    position: relative;
+    bottom: 13.5rem;
+    right: 17rem;
+  }
+  .cuartoPaso{
+    position: relative;
+    bottom: 28rem;
+    margin-left: 34.5rem;
+  }
+  .quintoPaso{
+    position: relative;
+    bottom: 39rem;
+    left: 1rem;
+  }
+  .linea1{
+    margin-left: 20rem;
+  }
+  .linea4{
+    margin-left: 22rem;
+    position: relative;
+    bottom: 39.25rem;
+  }
+  .linea3{
+    position: relative;
+    bottom: 26rem;
+    left: 1rem;
+  }
+  .linea2{
+    position: relative;
+    left: 1rem;
+    bottom: 11rem;
+  }
+  .sectionPasos{
+    margin-top: -5rem;
+    margin-bottom: -5rem;
+  }
+  .paso1{
+    position: relative;
+    top: 13.5rem;
+  }
+  .textoPaso1{
+    position: relative;
+    left: -14rem; 
+    bottom:12rem;
+  }
+  .textoPaso2{
+    position: relative;
+    left: 5rem;
+    top: -11rem;
+  }
+  .textoPaso3{
+    position: relative;
+    left: -4rem; 
+    bottom:25rem;
+  }
+  .textoPaso4{
+    position: relative;
+    left: 6rem; 
+    bottom:38.5rem;
+  }
+  .textoPaso5{
+    position: relative;
+    bottom:37rem;
+    left: 1.5rem;
+  }
+}
+
 .cardServices{
   background-color: rgba(242, 248, 255, 1);
 }
@@ -1035,16 +1198,13 @@ a:hover {
   border-top-left-radius: 200px!important;
   border-top-right-radius: 200px!important;
 }
-.card-space2{
-  margin-right: 1rem!important;
-  background-color: rgba(193, 240, 243, 0.548);
-}
 .contact-section{
   margin-top: -20rem;
 }
 .profile-text{
   font-size: 1.5rem;
-  color: rgba(7, 30, 61, 1);
+  color: #071E3D;
+  font-weight: 700!important;
 }
 .imgLinkedin{
   position: relative;
@@ -1054,5 +1214,82 @@ a:hover {
 .botonEnviar{
   background-color: rgba(7, 30, 61, 1);
   color: #fff0f0;
-
+}
+.botonEnviar:hover{
+  background-color: #133A6D;
+  color: #fff0f0;
+}
+.modalImage{
+  height: 200px;
+    width: 200px;
+    background-image: url('../images/IMG_3497.png');
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 8.5rem;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+}
+.modalImage2{
+  height: 200px;
+    width: 200px;
+    background-image: url('../images/IMG_3454\ 1.png');
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 8.5rem;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+}
+.modalImage3{
+  height: 200px;
+    width: 200px;
+    background-image: url('../images/IMG_3505\ 2.png');
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 8.5rem;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+}
+.modalImage4{
+  height: 200px;
+    width: 200px;
+    background-image: url('../images/IMG_3470\ png.png');
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 8.5rem;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+}
+.modal-container{
+  height: 600px;
+    width: 500px;
+    box-shadow: 0 10px 20px black;
+    background-size: cover;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    overflow: hidden;
+    background-color: #C1F0F3;
+}
+.modal-image-title{
+  position: relative;
+  top: 1.55rem;
+  right: 0rem;
+  color: #071E3D;
+  font-weight: 700;
+}
+.modal-image-text{
+  position: relative;
+  top: 2rem;
+  right: 0rem;
+  text-align: start;
+  color: #071E3D;
+}
+.modal-linkedin{
+  position: relative;
+  right: 12rem;
+  top: 2rem;  
 }
