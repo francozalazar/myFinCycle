@@ -9,7 +9,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 
-
 }
 
 .navBg {
@@ -1159,6 +1158,11 @@ header.masthead .masthead-content .masthead-subheading {
     margin-left: 0 !important;
     bottom: 2rem !important;
   }
+  .segundoPasoM {
+    position: relative;
+    margin-left: 0 !important;
+    bottom: 2rem !important;
+  }
 
   .textoPaso2 {
     position: relative;
@@ -1301,93 +1305,6 @@ header.masthead .masthead-content .masthead-subheading {
   .textoPaso5 {
     position: relative;
     bottom: 17rem;
-  }
-}
-
-@media (max-width: 991px) {
-  .segundoPaso {
-    margin-left: 34rem;
-  }
-
-  .tercerPaso {
-    margin-right: 4rem;
-    position: relative;
-    bottom: 13.5rem;
-    right: 17rem;
-  }
-
-  .cuartoPaso {
-    position: relative;
-    bottom: 28rem;
-    margin-left: 34.5rem;
-  }
-
-  .quintoPaso {
-    position: relative;
-    bottom: 39rem;
-    left: 1rem;
-  }
-
-  .linea1 {
-    margin-left: 20rem;
-  }
-
-  .linea4 {
-    margin-left: 22rem;
-    position: relative;
-    bottom: 39.25rem;
-  }
-
-  .linea3 {
-    position: relative;
-    bottom: 26rem;
-    left: 1rem;
-  }
-
-  .linea2 {
-    position: relative;
-    left: 1rem;
-    bottom: 11rem;
-  }
-
-  .sectionPasos {
-    margin-top: -5rem;
-    margin-bottom: -5rem;
-  }
-
-  .paso1 {
-    position: relative;
-    top: 13.5rem;
-  }
-
-  .textoPaso1 {
-    position: relative;
-    left: -14rem;
-    bottom: 12rem;
-  }
-
-  .textoPaso2 {
-    position: relative;
-    left: 5rem;
-    top: -11rem;
-  }
-
-  .textoPaso3 {
-    position: relative;
-    left: -4rem;
-    bottom: 25rem;
-  }
-
-  .textoPaso4 {
-    position: relative;
-    left: 6rem;
-    bottom: 38.5rem;
-  }
-
-  .textoPaso5 {
-    position: relative;
-    bottom: 37rem;
-    left: 1.5rem;
   }
 }
 
@@ -1588,8 +1505,193 @@ header.masthead .masthead-content .masthead-subheading {
 @media (max-width: 767px) {
   .decoracion1{
     position: absolute;
-    right: 0;
-    top: 94.5px;
+    width: 30%;
+  }
+
+  html,
+body {
+  max-width: 100% !important;
+}
+  .decoracion2{
+    position: absolute;
+    top: 70vh!important;
+    width: 30%;
+  }
+  .decoracion3{
+    position: absolute;
+    display: none;
     width: 40%;
+  }
+  .decoracion4{
+    position: absolute;
+    display: none;
+    width: 40%;
+  }
+  .decoracion5{
+    position: absolute;
+    display: none;
+    width: 40%;
+  }
+  .decoracion6{
+    position: absolute;
+    display: none;
+    width: 40%;
+  }
+  .decoracion7{
+    position: absolute;
+    display: none;
+    width: 40%;
+  }
+  .decoracion8{
+    position: absolute;
+    display: none;
+    width: 40%;
+  }
+  .decoracion9{
+    position: absolute;
+    display: none;
+    width: 40%;
+  }
+  .decoracion10{
+    position: absolute;
+    display: none;
+    width: 40%;
+  }
+  .decoracion11{
+    position: absolute;
+    display: none;
+    width: 40%;
+  }
+}
+
+@media (max-width: 991px) {
+  .segundoPaso {
+    margin-left: 35rem;
+    width: 20%;
+  }
+  .primerPaso{
+    width: 20%;
+  }
+  .profile-img{
+    width: 155px;
+    height: 155px;
+  }
+  .sectionPasos{
+    width: 100vw;
+  }
+
+  .tercerPaso {
+    margin-right: 4rem;
+    position: relative;
+    bottom: 13.5rem;
+    right: 17rem;
+    width: 20%;
+  }
+
+  .cuartoPaso {
+    position: relative;
+    bottom: 28rem;
+    margin-left: 34.5rem;
+    width: 20%;
+  }
+
+  .quintoPaso {
+    position: relative;
+    bottom: 39rem;
+    left: 1rem;
+    width: 18%;
+  }
+
+  .linea1 {
+    margin-left: 20rem;
+  }
+
+  .linea4 {
+    margin-left: 20rem;
+    position: relative;
+    bottom: 39.25rem;
+    width: 35%;
+  }
+
+  .linea3 {
+    position: relative;
+    bottom: 26rem;
+    left: 0;
+    width: 75%;
+  }
+
+  body{
+    width: 103vw!important;
+  }
+
+  .linea2 {
+    position: relative;
+    left: 0;
+    bottom: 11rem;
+  }
+
+  .sectionPasos {
+    margin-top: -5rem;
+    margin-bottom: -5rem;
+  }
+
+  .paso1 {
+    position: relative;
+    top: 13.5rem;
+  }
+
+  .textoPaso1 {
+    position: relative;
+    left: -14rem;
+    bottom: 12rem;
+  }
+
+  .textoPaso2 {
+    position: relative;
+    left: 5rem;
+    top: -9rem;
+  }
+
+  .textoPaso3 {
+    position: relative;
+    left: -4rem;
+    bottom: 23rem;
+  }
+
+  .textoPaso4 {
+    position: relative;
+    left: 6rem;
+    bottom: 37rem;
+  }
+
+  .textoPaso5 {
+    position: relative;
+    bottom: 37rem;
+    left: 1.5rem;
+  }
+
+  .decoracion3{
+    top: 100vh;
+    right: 0;
+  }
+
+  .decoracion4{
+    top: 188vh;
+    left: 0;
+  }
+
+  .decoracion9{
+    top: 407vh;
+    right: 0;
+  }
+
+  .decoracion10{
+    top: 442vh;
+    display: none;
+  }
+
+  .decoracion11{
+    top: 462vh;
+    display: none;
   }
 }
