@@ -8,7 +8,6 @@ body {
 
   background-repeat: no-repeat;
   background-position: center center;
-
 }
 
 .navBg {
@@ -714,6 +713,7 @@ div::selection {
 
 .card-space {
   margin-right: 1rem !important;
+  margin-left: 1rem !important;
 }
 
 .card-space2 {
@@ -723,8 +723,8 @@ div::selection {
 }
 
 .profile-img {
-  width: 260px;
-  height: 260px;
+  width: 200px;
+  height: 200px;
   border-radius: 160px !important;
   display: block;
   margin: 0px auto;
@@ -732,7 +732,7 @@ div::selection {
 
 .profile-btn {
   position: relative;
-  top: 4rem;
+  top: 1rem;
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
@@ -756,7 +756,7 @@ div::selection {
 
 .profile-btn2 {
   position: relative;
-  top: 4rem;
+  top: 1rem;
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
@@ -780,7 +780,7 @@ div::selection {
 
 .profile-btn3 {
   position: relative;
-  top: 4rem;
+  top: 1rem;
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
@@ -804,7 +804,7 @@ div::selection {
 
 .profile-btn4 {
   position: relative;
-  top: 4rem;
+  top: 1rem;
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
@@ -881,10 +881,19 @@ header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
 
+.cardAboutUs{
+  height: 25rem;
+  left: 32rem;
+}
+
 @media (min-width: 992px) {
   header.masthead header.masthead {
     padding-top: calc(10rem + 55px);
     padding-bottom: 10rem;
+  }
+
+  .containerAboutUs{
+    max-width: 880px;
   }
 
   header.masthead header.masthead .masthead-content .masthead-heading {
@@ -949,7 +958,8 @@ header.masthead .masthead-content .masthead-subheading {
   }
 
   .card-space {
-    margin-right: 0px !important;
+    margin-right: 2rem !important;
+    margin-left: 2rem !important;
   }
 
   .card-space2 {
@@ -1327,11 +1337,11 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .contact-section {
-  margin-top: -20rem;
+  margin-top: -24rem;
 }
 
 .profile-text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #071E3D;
   font-weight: 700 !important;
 }
@@ -1484,9 +1494,9 @@ header.masthead .masthead-content .masthead-subheading {
 
 .decoracion9{
   position: absolute;
-  right: 6rem;
-  width: 25%;
-  top: 425vh;
+  right: 15rem;
+  width: 20%;
+  top: 420vh;
   z-index: -1;
 }
 .decoracion10{
@@ -1498,7 +1508,7 @@ header.masthead .masthead-content .masthead-subheading {
 .decoracion11{
   position: absolute;
   right: 0rem;
-  top: 545vh;
+  top: 515vh;
   z-index: -1;
 }
 
@@ -1520,7 +1530,7 @@ body {
   .decoracion3{
     position: absolute;
     display: none;
-    width: 40%;
+    width: 10%;
   }
   .decoracion4{
     position: absolute;
@@ -1561,6 +1571,29 @@ body {
     position: absolute;
     display: none;
     width: 40%;
+  }
+  .cardAboutUs{
+    height: 20rem;
+    left: 6rem; 
+    width: 46%;
+  }
+  .profile-text{
+    font-size: 1rem;
+  }
+  .profile-btn{
+    top: -1rem;
+  }
+  .profile-btn2{
+    top: -1rem;
+  }
+  .profile-btn3{
+    top: -1rem;
+  }
+  .profile-btn4{
+    top: -1rem;
+  }
+  .imgLinkedin{
+    top: 	0.5rem;
   }
 }
 
